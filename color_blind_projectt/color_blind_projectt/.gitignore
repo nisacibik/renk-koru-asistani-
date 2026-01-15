@@ -1,0 +1,23 @@
+# IDE Ayarları (PyCharm vb.)
+.idea/
+*.iml
+
+# Python Çalışma Dosyaları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sanal Ortam (Eğer varsa)
+venv/
+env/
+.env
+
+# Çıktı Dosyaları (Kendi test resimlerin gitmesin)
+kmeans_result_*.jpg
+corrected_output.jpg
+*_simulasyon.jpg
+
+# OneDrive veya Sistem Dosyaları
+.DS_Store
+Thumbs.db
